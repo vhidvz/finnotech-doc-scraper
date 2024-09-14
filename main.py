@@ -42,4 +42,4 @@ if __name__ == '__main__':
         browser.close()
 
     with open('data.json', 'w', encoding='utf-8') as f:
-        json.dump(result, f, ensure_ascii=False, indent=4)
+        json.dump(list(set(result)), f, ensure_ascii=False, indent=4)
