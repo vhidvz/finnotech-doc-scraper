@@ -1,0 +1,2 @@
+tqdm>=4.66.5
+playwright>=1.47.0
